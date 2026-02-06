@@ -25,7 +25,7 @@ All without changing the underlying AI model.
 
 ![Alt Text](/AIResearchAssistantModel.png)
 
-We have built an AI Assistant that
+We have built a prototype AI Assistant that
 * provide a GDS compliant user interface to interact with larrge language models (link to models and research)
     * Interface to draft and submit promots to the LLM
     * Records the conversation history (context)
@@ -34,5 +34,8 @@ We have built an AI Assistant that
 * Paved road to deploy components to CDP Platform
     * Build the knowledge base to hold DEFRA & ALB institutional knowledge
     * The Natural Language Retriever that takes a user prompt and finds document sections that are relevant to the question being asked
-    * The AI Assistant fron and backends 
-a prototype to provide a paved road for deploying the technology stack to deliver a generative AI solution over DEFRA & ALB specific documents.
+    * The AI Assistant front and backends
+    * Exploit the SaaS AWS Bedrock LLM hosting service
+        * Access to curated set of LLM models
+        * Guardrails implemented in our Bedrock profile
+        * System Prompts enforced within Bedrock Service  
