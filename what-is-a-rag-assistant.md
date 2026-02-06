@@ -23,5 +23,16 @@ All without changing the underlying AI model.
 
 #What have we built?
 
-[![werwer](wewer "werwer")](/AI%20Research%20Assistant%20Model.drawio.png)
-We have built a prototype to provide a paved road for deploying the technology stack to deliver a generative AI solution over DEFRA & ALB specific documents.
+![Alt Text](/AIResearchAssistantModel.png)
+
+We have built an AI Assistant that
+* provide a GDS compliant user interface to interact with larrge language models (link to models and research)
+    * Interface to draft and submit promots to the LLM
+    * Records the conversation history (context)
+    * Retrieves knowledge from the knowledge base
+    * Consiolidates conversation history, knowledge, system and user prompts then submits to LLM to generate an answer 
+* Paved road to deploy components to CDP Platform
+    * Build the knowledge base to hold DEFRA & ALB institutional knowledge
+    * The Natural Language Retriever that takes a user prompt and finds document sections that are relevant to the question being asked
+    * The AI Assistant fron and backends 
+a prototype to provide a paved road for deploying the technology stack to deliver a generative AI solution over DEFRA & ALB specific documents.
