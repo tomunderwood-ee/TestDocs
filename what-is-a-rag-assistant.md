@@ -23,4 +23,5 @@ All without changing the underlying AI model.
 
 #What have we built?
 
+[![werwer](wewer "werwer")](/AI%20Research%20Assistant%20Model.drawio.png)
 We have built a prototype to provide a paved road for deploying the technology stack to deliver a generative AI solution over DEFRA & ALB specific documents.
